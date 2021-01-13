@@ -5,7 +5,7 @@
 .JohannaJean {
   color: white;
   font-weight: lighter;
-  font-size: 150px;
+  font-size: 120px;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
   margin-bottom: 15px;
 }
 hr {
-  width: 250px;
+  width: 25%;
 }
 
 .ComingSoonText {
@@ -27,5 +27,18 @@ hr {
 
 .comingsoon {
   font-size: 65px;
-  margin: 65px 25px 10px 5px;
+  margin: 75px 25px 10px 5px;
+}
+@media (max-width: 767px) {
+  .JohannaJean {
+    margin-top: 280px;
+    font-size: 55px;
+  }
+  .Agency {
+    font-size: 15px;
+  }
+  .comingsoon {
+    font-size: 25px;
+    margin: 85px 10px 150px 0px;
+  }
 }

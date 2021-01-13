@@ -8,7 +8,7 @@ const GentleWave = () => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       className="editorial"
       preserveAspectRatio="none"
-      viewBox="0 24 150 28"
+      viewBox="0 24 150 50"
     >
       <defs>
         <path
