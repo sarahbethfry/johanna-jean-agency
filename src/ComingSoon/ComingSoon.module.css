@@ -1,0 +1,31 @@
+.Background {
+  background-color: #147588;
+  background-size: cover;
+}
+.JohannaJean {
+  color: white;
+  font-weight: lighter;
+  font-size: 150px;
+  text-align: center;
+}
+
+.Agency {
+  color: white;
+  font-weight: 100;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+hr {
+  width: 250px;
+}
+
+.ComingSoonText {
+  color: white;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.comingsoon {
+  font-size: 65px;
+  margin: 65px 25px 10px 5px;
+}
