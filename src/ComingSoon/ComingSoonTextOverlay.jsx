@@ -6,8 +6,8 @@ import classes from "./ComingSoon.module.css";
 const ComingSoonTextOverlay = () => {
   return (
     <div className={classes.ComingSoonText}>
-      <h1 className={classes.comingsoon}> Coming Soon</h1>
-      <FontAwesomeIcon icon={faEllipsisH} size="3x" color="white" />
+      <h1 className={classes.comingsoon}> Coming Soon . . .</h1>
+      {/* <FontAwesomeIcon icon={faEllipsisH} size="3x" color="white" /> */}
     </div>
   );
 };
