@@ -1,5 +1,5 @@
 .Background {
-  background-color: #147588;
+  background-color: black;
   background-size: cover;
 }
 .JohannaJean {
@@ -20,7 +20,7 @@ hr {
 }
 
 .ComingSoonText {
-  color: white;
+  color: #147588;
   display: inline-flex;
   align-items: flex-end;
 }
