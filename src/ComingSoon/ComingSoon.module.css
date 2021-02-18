@@ -1,44 +1,53 @@
-.Background {
-  background-color: black;
-  background-size: cover;
-}
-.JohannaJean {
-  color: white;
-  font-weight: lighter;
-  font-size: 120px;
-  text-align: center;
-}
-
-.Agency {
-  color: white;
-  font-weight: 100;
-  font-size: 50px;
-  margin-bottom: 15px;
-}
-hr {
-  width: 25%;
-}
-
-.ComingSoonText {
+.ComingSoon {
+  width: 100%;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  font-size: 150px;
   color: #147588;
-  display: inline-flex;
-  align-items: flex-end;
 }
 
-.comingsoon {
-  font-size: 65px;
-  margin: 75px 25px 10px 5px;
+ul {
+  margin: 0;
 }
-@media (max-width: 767px) {
-  .JohannaJean {
-    margin-top: 280px;
-    font-size: 55px;
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 35px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #147588;
+}
+.list1 {
+  padding-right: 170px;
+  margin-left: -20%;
+}
+.list2 {
+  margin-right: -18%;
+}
+
+@media (width < 1000px) {
+  .ComingSoon {
+    font-size: 44px;
   }
-  .Agency {
-    font-size: 15px;
+  ul {
+    margin-top: 40px;
+    margin-left: -10%;
   }
-  .comingsoon {
-    font-size: 25px;
-    margin: 85px 10px 150px 0px;
+  li {
+    display: block;
+    font-size: 18px;
+    padding: 20px;
+  }
+  .list1 {
+    padding: 0;
+    margin: 0;
+  }
+  .list2 {
+    margin: 0;
   }
 }
